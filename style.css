@@ -1,0 +1,158 @@
+body{
+    background-color: #eeeeee;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ff69b4;
+    border-bottom: 2px solid #ff69b4;
+    padding-bottom: 5px;
+}
+
+.about-me {
+    background-color:#eeeeee;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about-me h2 {
+    color: #222;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.about-me p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.education {
+    background-color:#eeeeee;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.education h2{
+    color: #222;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.education p{
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+}
+.projects-name{
+    background-color:#eeeeee;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.projects-name h2{
+    color: #222;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.projects-name p{
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+footer{
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Skills & Interests content */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+    font-size: 30px;
+}
+
+ul {
+    width: 80%;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+li {
+    width: 180px;
+    padding: 25px 10px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+li:hover {
+    border-color: #555;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* About Me */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    width: 70%;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #e8f0fe;
+    border: 2px solid #8ab4f8;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f8c8dc;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #e8a8c4;
+}
