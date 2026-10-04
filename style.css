@@ -14,12 +14,14 @@ nav a {
     margin: 0 20px;
     font-size: 17px;
     font-weight: 500;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color: #ff69b4;
+    color: white;
     border-bottom: 2px solid #ff69b4;
     padding-bottom: 5px;
+    transform: translateY(-3px);
 }
 
 .about-me {
@@ -84,10 +86,30 @@ nav a:hover {
     text-align: center;
 }
 
-footer{
+footer {
     background-color: #111;
-    padding: 20px;
+    color: white;
+    padding: 30px 20px;
     text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    background-color: #eeeeee;
+    color: #222;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 8px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background-color: #ff69b4;
+    color: white;
+    transform: translateY(-3px);
 }
 
 /* Skills & Interests content */
@@ -155,4 +177,49 @@ nav a {
 
 nav a:hover {
     background-color: #e8a8c4;
+}
+
+/* Contact Page */
+
+.contact-page {
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+}
+
+.contact-page h2 {
+    color: #222;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-box {
+    background-color: #eeeeee;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-box h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    color: #555;
+    font-size: 17px;
+}
+
+.contact-box a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    color: #ff69b4;
+    text-decoration: underline;
 }
